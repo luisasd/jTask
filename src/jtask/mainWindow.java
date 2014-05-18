@@ -58,7 +58,6 @@ public class mainWindow extends javax.swing.JFrame {
         });
 
         cb_funcionario.setEditable(true);
-        cb_funcionario.setModel(new javax.swing.DefaultComboBoxModel(new String[] { " ", "luis", "Sandra" }));
         cb_funcionario.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cb_funcionarioActionPerformed(evt);
@@ -68,7 +67,6 @@ public class mainWindow extends javax.swing.JFrame {
         jLabel2.setText("Cliente");
 
         cb_cliente.setEditable(true);
-        cb_cliente.setModel(new javax.swing.DefaultComboBoxModel(new String[] { " ", "luis", "Sandra" }));
         cb_cliente.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cb_clienteActionPerformed(evt);
@@ -78,7 +76,6 @@ public class mainWindow extends javax.swing.JFrame {
         jLabel3.setText("Tarefa");
 
         cb_tarefa.setEditable(true);
-        cb_tarefa.setModel(new javax.swing.DefaultComboBoxModel(new String[] { " ", "luis", "Sandra" }));
         cb_tarefa.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cb_tarefaActionPerformed(evt);
