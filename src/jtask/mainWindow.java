@@ -1,11 +1,6 @@
 
 package jtask;
 
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import javax.swing.JOptionPane;
-import sun.font.TrueTypeFont;
-
 /**
  *
  * @author Luis
