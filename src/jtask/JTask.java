@@ -14,6 +14,7 @@ import javax.swing.JFrame;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 import lib.funcionario;
+import lib.tarefa;
 
 /**
  *
@@ -48,10 +49,14 @@ public class JTask {
         String[] l = {"luis", "Sandra", "Gabriela"};
         f.setList(l);
         
+        lib.tarefa t = new tarefa();
+        String[] lstTarefas = {"Nova", "Emails"};
+        t.setLista(lstTarefas);
         
         mainWindow w = new mainWindow();
         w.setIconImage(imgIcon);
         w.fillFunc(f.getList());
+        w.fillTarefas(t.getLista());
         w.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         w.setVisible(true);
     }
