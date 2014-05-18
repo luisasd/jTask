@@ -48,11 +48,6 @@ public class mainWindow extends javax.swing.JFrame {
         });
 
         cb_funcionario.setEditable(true);
-        cb_funcionario.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                cb_funcionarioActionPerformed(evt);
-            }
-        });
 
         jLabel2.setText("Cliente");
 
@@ -161,12 +156,6 @@ public class mainWindow extends javax.swing.JFrame {
             
         }
     }//GEN-LAST:event_jButton1ActionPerformed
-
-    private void cb_funcionarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cb_funcionarioActionPerformed
-        if (evt.getActionCommand() == "comboBoxEdited") {
-            System.out.println(evt.getActionCommand());
-        }
-    }//GEN-LAST:event_cb_funcionarioActionPerformed
 
     private void cb_clienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cb_clienteActionPerformed
         // TODO add your handling code here:
