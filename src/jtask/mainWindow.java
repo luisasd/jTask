@@ -227,6 +227,9 @@ public class mainWindow extends javax.swing.JFrame {
     public void fillFunc(String[] lst) {
         this.cb_funcionario.setModel(new javax.swing.DefaultComboBoxModel(lst));
     }
+    public void fillTarefas(String[] lst) {
+        this.cb_tarefa.setModel(new javax.swing.DefaultComboBoxModel(lst));
+    }
     
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JComboBox cb_cliente;
